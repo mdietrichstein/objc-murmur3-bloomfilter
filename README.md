@@ -1,6 +1,6 @@
 # Objective-C Bloom Filter implementation
 
-An Objective-C Bloom Filter implementation using 128 Bit (x64) Murmur3 Hashing. Hashes are generated using the Double Hashing Methond described in [Less Hashing, Same Performance: Building a Better Bloom Filter](http://www.eecs.harvard.edu/~kirsch/pubs/bbbf/esa06.pdf). 
+An Objective-C Bloom Filter implementation using 128 Bit (x64) Murmur3 Hashing. Hashes are generated using the Double Hashing Methond described in [Less Hashing, Same Performance: Building a Better Bloom Filter](https://www.eecs.harvard.edu/~michaelm/postscripts/tr-02-05.pdf). 
 
 ## Usage
 
@@ -34,5 +34,5 @@ NSAssert([deserializedBloomFilter contains:invalidData] == NO);
 
 * [Bloom Filter (Wikipedia)](https://en.wikipedia.org/wiki/Bloom_filter)
 * [Murmur3 hash implementation (C++)](https://github.com/aappleby/smhasher/blob/master/src/MurmurHash3.cpp)
-* [Less Hashing, Same Performance: Building a Better Bloom Filter (pdf)](http://www.eecs.harvard.edu/~kirsch/pubs/bbbf/esa06.pdf)
+* [Less Hashing, Same Performance: Building a Better Bloom Filter (pdf)](https://www.eecs.harvard.edu/~michaelm/postscripts/tr-02-05.pdf)
 

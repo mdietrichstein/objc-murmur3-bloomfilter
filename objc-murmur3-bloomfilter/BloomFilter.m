@@ -45,7 +45,7 @@
 
     // See "Less Hashing, Same Performance: Building a Better Bloom Filter"
     // Section "4.2 (Extended) Double Hashing Schemes",  f(i) = 0 (double hashing scheme)
-    // http://www.eecs.harvard.edu/~kirsch/pubs/bbbf/esa06.pdf
+    // https://www.eecs.harvard.edu/~michaelm/postscripts/tr-02-05.pdf
     for(u_int8_t i; i < _numberHashes; i++) {
         uint64_t hash = (hash0 + hash1 * i) % _numberOfBits;
         [bits setAtIndex:hash];
